@@ -1,0 +1,19 @@
+5V regulater 설계사용 지침서
+1. IC1 L7805CV   1.INPUT 2.GROUND 3. OUTPUT
+2. J1 1546215-2   1. 2. (Input Voltage)   연결 단말기[connection terminal]
+3. Doide D1 SD103A-TR   1      2  :  쇼트키 다이오드 &  표준다이오드
+4. Capacitor C1 0.22uF 
+5. Capacitor C2 0.1uF
+6. GND
+7. Capacitor C3 10uF
+8. Capacitor C4 0.1uF
+9. J2 1546215-2(Output Voltage)
+
+전압 레귤레이터의 목적은 입력전압이 변경되더라도 출력전압을 일정하게 유지하는 것이다. 
+이를 위해서는 직접회로 구성품을 사용 
+7824 > 내부30V 외부24V
+7808 > 내부10V 외부8V
+7812 > 내부15V 외부12V
+7806 > 내부8V 외부6V
+7805 > 내부7V 외부5V 일정한 5V 출력 최대1.5A 전류  입력7V -35V 모두 적용가능
+
